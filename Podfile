@@ -7,6 +7,7 @@ target 'FirebaseTestApp' do
 
   # Pods for FirebaseTestApp
   pod 'Firebase/Core'
+  pod 'GoogleTagManager'
 
   target 'FirebaseTestAppTests' do
     inherit! :search_paths

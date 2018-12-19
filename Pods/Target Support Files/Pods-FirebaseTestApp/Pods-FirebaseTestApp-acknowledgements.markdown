@@ -219,7 +219,19 @@ Copyright 2018 Google
 
 Copyright 2018 Google
 
+## GoogleAnalytics
+
+Copyright 2016 Google
+
 ## GoogleAppMeasurement
+
+Copyright 2018 Google
+
+## GoogleSymbolUtilities
+
+Copyright 2016 Google
+
+## GoogleTagManager
 
 Copyright 2018 Google
 
@@ -428,6 +440,10 @@ Copyright 2018 Google
    See the License for the specific language governing permissions and
    limitations under the License.
 
+
+## GoogleUtilitiesLegacy
+
+Copyright 2018 Google
 
 ## nanopb
 
