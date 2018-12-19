@@ -16,6 +16,9 @@
 		AF17A99621C9C374001782A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF17A99421C9C374001782A8 /* LaunchScreen.storyboard */; };
 		AF17A9A121C9C374001782A8 /* FirebaseTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17A9A021C9C374001782A8 /* FirebaseTestAppTests.swift */; };
 		AF17A9AC21C9C374001782A8 /* FirebaseTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17A9AB21C9C374001782A8 /* FirebaseTestAppUITests.swift */; };
+		AF17A9BC21C9C78C001782A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF17A9BB21C9C78C001782A8 /* GoogleService-Info.plist */; };
+		AF17A9BD21C9C78C001782A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF17A9BB21C9C78C001782A8 /* GoogleService-Info.plist */; };
+		AF17A9BE21C9C78C001782A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF17A9BB21C9C78C001782A8 /* GoogleService-Info.plist */; };
 		CF18D2DC09136CFDDE8DE634 /* Pods_FirebaseTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1814583F2030E1F8A74962ED /* Pods_FirebaseTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,7 @@
 		AF17A9A721C9C374001782A8 /* FirebaseTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17A9AB21C9C374001782A8 /* FirebaseTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTestAppUITests.swift; sourceTree = "<group>"; };
 		AF17A9AD21C9C374001782A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF17A9BB21C9C78C001782A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B048F29F1C4D25D1CC350343 /* Pods-FirebaseTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTestApp/Pods-FirebaseTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BE87FC9D494CCF86ED51F5E6 /* Pods-FirebaseTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTestAppTests/Pods-FirebaseTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F09DA602F7261C04982EC6DF /* Pods-FirebaseTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTestAppTests/Pods-FirebaseTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		AF17A98A21C9C373001782A8 /* FirebaseTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				AF17A9BB21C9C78C001782A8 /* GoogleService-Info.plist */,
 				AF17A98B21C9C373001782A8 /* AppDelegate.swift */,
 				AF17A98D21C9C373001782A8 /* ViewController.swift */,
 				AF17A98F21C9C373001782A8 /* Main.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF17A99621C9C374001782A8 /* LaunchScreen.storyboard in Resources */,
+				AF17A9BC21C9C78C001782A8 /* GoogleService-Info.plist in Resources */,
 				AF17A99321C9C374001782A8 /* Assets.xcassets in Resources */,
 				AF17A99121C9C373001782A8 /* Main.storyboard in Resources */,
 			);
@@ -283,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF17A9BD21C9C78C001782A8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF17A9BE21C9C78C001782A8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
